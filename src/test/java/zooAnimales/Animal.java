@@ -22,11 +22,16 @@ public class Animal {
 		this.genero = genero;
 	}
 	public static String totalPorTipo() {
-		return "Mamiferos: "+ Mamifero.Mamiferos+"\n"+
-				"Aves: "+ Ave.Aves+"\n"+
-				"Reptiles: "+ Reptil.Reptiles+"\n"+
-				"Peces: "+ Pez.Peces+"\n"+
-				"Anfibios: "+ Anfibio.Anfibios;
+		return  "Mamiferos: "+Mamifero.Mamiferos()+"\n"+   
+				"Aves: "+Ave.Aves()+"\n"+
+				"Reptiles: "+Reptil.Reptiles()+"\n"+
+				"Peces: "+Pez.Peces()+"\n"+
+				"Anfibios: "+Anfibio.Anfibios();
+//		"Mamiferos: 4\n" + 
+//		"Aves: 4\n" + 
+//		"Reptiles: 2\n" + 
+//		"Peces: 2\n" + 
+//		"Anfibios: 3";
 	}
 	public String getNombre() {
 		return nombre;
@@ -56,7 +61,7 @@ public class Animal {
 	public String toString() {
 		return "Mi nombre es "+nombre+", tengo una edad de "+edad+", habito en "+habitat+" y mi genero es "+genero;
 	}
-	public  String movimiento() {
+	public String movimiento() {
 		return "desplazarse";
 	}
 }
