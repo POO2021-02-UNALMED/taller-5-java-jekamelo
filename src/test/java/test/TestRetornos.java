@@ -19,15 +19,15 @@ public class TestRetornos {
 	@Test
    	public void testTotalTipo(){
 		
-		new Anfibio();
-		new Anfibio();
-		new Mamifero();
-		new Mamifero();
-		new Mamifero();
-		new Reptil();
-		new Pez();
-		new Ave();
-		new Ave();
+		Animal b1 = new Anfibio();
+		Animal b2 = new Anfibio();
+		Animal b3 = new Mamifero();
+		Animal b4 = new Mamifero();
+		Animal b5 = new Mamifero();
+		Animal b6 = new Reptil();
+		Animal b7 = new Pez();
+		Animal b8 = new Ave();
+		Animal b9 =new Ave();
 		boolean ok = false;
 		String  comp = "Mamiferos: 4\n" + 
 				"Aves: 4\n" + 
