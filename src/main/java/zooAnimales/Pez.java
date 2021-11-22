@@ -4,12 +4,14 @@ import java.util.ArrayList;
 
 public class Pez extends Animal{
 	private ArrayList<Pez> listado;
+	public static int Peces =1;
 	public static int salmones;
 	public static int bacalaos;
 	private String colorEscamas;
 	private int cantidadAletas;
 	
 	public Pez() {
+		Peces += 1;
 		
 	}
 	

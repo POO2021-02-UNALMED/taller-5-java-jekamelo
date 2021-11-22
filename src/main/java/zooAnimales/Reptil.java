@@ -4,12 +4,14 @@ import java.util.ArrayList;
 
 public class Reptil extends Animal {
 	private ArrayList<Reptil> listado;
+	public static int Reptiles = 1;
 	public static int iguanas;
 	public static int serpientes;
 	private String colorEscamas;
 	private int largoCola;
 	
 	public Reptil() {
+		Reptiles += 1;
 		
 	}
 	public Reptil(String nombre,int edad,String habitat,String genero,String colorEscamas,int largoCola) {

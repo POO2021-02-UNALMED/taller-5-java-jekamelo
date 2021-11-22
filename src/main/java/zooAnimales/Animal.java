@@ -22,11 +22,11 @@ public class Animal {
 		this.genero = genero;
 	}
 	public static String totalPorTipo() {
-		return "Mamiferos: "+ Mamifero.cantidadMamiferos()+"\n"+
-				"Aves: "+ Ave.cantidadAves()+"\n"+
-				"Reptiles: "+ Reptil.cantidadReptiles()+"\n"+
-				"Peces: "+ Pez.cantidadPeces()+"\n"+
-				"Anfibios: "+ Anfibio.cantidadAnfibios()+"\n";
+		return "Mamiferos: "+ Mamifero.Mamiferos+"\n"+
+				"Aves: "+ Ave.Aves+"\n"+
+				"Reptiles: "+ Reptil.Reptiles+"\n"+
+				"Peces: "+ Pez.Peces+"\n"+
+				"Anfibios: "+ Anfibio.Anfibios;
 	}
 	public String getNombre() {
 		return nombre;

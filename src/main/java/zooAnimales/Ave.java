@@ -4,11 +4,13 @@ import java.util.ArrayList;
 
 public class Ave extends Animal{
 	private ArrayList<Ave> listado;
+	public static int Aves = 2;
 	public static int halcones;
 	public static int aguilas;
 	private String colorPlumas;
 	
 	public Ave() {
+		Aves += 1;
 		
 	}
 	
